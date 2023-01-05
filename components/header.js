@@ -13,10 +13,10 @@ export default function Header() {
             <meta name="theme-color" content="#317EFB" />
             <meta name="apple-mobile-web-app-status-bar" content="#317EFB" />
             
-            <link rel="manifest" href="/manifest.json" />
-            <link href="/icons/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
-            <link href="/icons/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
-            <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+            <link href="/manifest.json" rel="manifest" />
+            <link href="/icons/icon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+            <link href="/icons/icon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+            <link href="/icons/icon-16x16.png" rel="apple-touch-icon" />
             
             <title>{siteTitle}</title>
             <link rel="icon" href="/favicon.ico" />
